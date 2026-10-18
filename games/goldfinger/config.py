@@ -39,7 +39,7 @@ from gameengine.config import AsgConfig
 # runs. The pristine activation room (sub_D61's first DS:06A9 write) is native
 # 0x0F, but a scripted "opening sequence" overwrites DS:06A9 several times
 # during the cutscene (live-traced 0x0F -> 0x15 -> 0x14 -> ..., BP at the sole
-# write site 0xDF88) and leaves the player at
+# write site 0xDF88; see docs/vm-migration-audit.md) and leaves the player at
 # 0x14 before the first prompt. That opening sequence isn't ported, so we set
 # the confirmed post-sequence value here directly -- it is the correct starting
 # point (LOOK now renders "The cockpit of the DB5...", OPEN ARMREST works).

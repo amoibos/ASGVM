@@ -430,8 +430,8 @@ class MessageMixin:
     def _container_link(self, record) -> int | None:
         """Authored initial-container VOCAB id (TABLES ``+0x18``), if any.
 
-        ``0``/``1`` mean "no container" (confirmed by a survey of the
-        shipped object records). Once the object's
+        ``0``/``1`` mean "no container" (confirmed pristine-data survey,
+        `docs/data-format.md` object-record field survey). Once the object's
         mutable ``+0x0C`` location has been explicitly set (carried, dropped,
         or PUT elsewhere), that field takes precedence over this authored
         link.

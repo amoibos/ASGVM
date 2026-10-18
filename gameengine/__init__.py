@@ -6,6 +6,6 @@ Indiana Jones, Dick Francis, Forbidden Castle, A View to a Kill,
 Rambo, The Mist, Voodoo Island). Per-game bindings live under
 ``games/<title>/``.
 
-The engine exists in two variants, told apart by the TABLES record size
-(40 or 47 bytes).
+See ``docs/engine-compatibility.md`` for the engine-variant matrix
+(40-byte vs 47-byte TABLES records being the main split).
 """

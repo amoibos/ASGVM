@@ -13,9 +13,9 @@ from __future__ import annotations
 # segment; NOTE the 47-byte-stride cluster's GAME.COM runs at DS=0x1594,
 # not Goldfinger's DS=0x15DD), captured via DOSBox-X MEMDUMPBIN after a
 # new-game starts (2026-07-03), same method as `games/goldfinger/records.py`'s
-# table. Each value is the BASE template; the response actually rendered is
-# typically a `(`-section-selected sub-fragment of the base record, same as
-# Goldfinger.
+# table (`docs/data-format.md`, "Verb-to-MESSAGE-record lookup table"). Each
+# value is the BASE template; the response actually rendered is typically a
+# `(`-section-selected sub-fragment of the base record, same as Goldfinger.
 VERB_RESPONSE_RECORDS: dict[int, int] = {
     0x01: 2771,   # quit
     0x02: 2764,   # save

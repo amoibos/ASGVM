@@ -84,7 +84,8 @@ LITERAL_SYMBOLS = frozenset((*range(0x00, 0x1B), 0x23, 0x24, 0x25, 0x26, 0x27))
 # Confirmed via a live DOSBox-X trace of the record seek GAME.COM:4525 (it
 # divides a record index by 0x55=85 and strides by 0x202=514 over a RAM block
 # cache; the on-disk pages are 512 bytes). The record reader walks the depaged
-# stream, so a logical record index N lives at depaged offset N*6.
+# stream, so a logical record index N lives at depaged offset N*6. See
+# docs/data-format.md "MESSAGE paging and the backslash dictionary".
 MESSAGE_PAGE_SIZE = 512
 MESSAGE_PAGE_HEADER = 2
 MESSAGE_GROUPS_PER_PAGE = 85

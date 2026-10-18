@@ -534,7 +534,7 @@ class ConditionalMixin:
         after ``(`` against the requested label and renders to the next ``(``.
         The general label-length/terminator rule (labels vary 4..6 symbols in the
         data) is not yet trace-confirmed, so the caller supplies the exact label;
-        the match length is ``len(label)``.
+        the match length is ``len(label)``. See docs/data-format.md.
 
         Controls that still need a trace (``^ $ ) & = + *``) are skipped, so
         the output is faithful prose plus its known capitalisation/line breaks,
