@@ -1,0 +1,137 @@
+# Indiana Jones in Revenge of the Ancients -- commands for the shipped
+# release, after the command-only walkthrough by odino on GameFAQs (2005,
+# not redistributed here). One command per "> " line. WAIT counts follow
+# the original's run (DOSBox-X), not the guide's "until ..." notes.
+> N
+> EXAMINE BOULDER
+> EXAMINE HAND
+> TAKE HAND
+> S
+> EXAMINE PANEL
+> OPEN JAW
+> PUSH BUTTON WITH HAND
+> TAKE WHIP
+> CRACK WHIP
+> W
+> W
+> S
+> W
+> N
+> W
+> S
+> W
+> N
+> N
+# the last step of the maze leads up into the sanctum
+> E
+> TAKE TOTEM
+> TAKE CYLINDER
+> LASSO ROCK WITH WHIP
+> PUT TOTEM IN POCKET
+> CLIMB UP WHIP
+> TAKE WHIP
+> WEAR WHIP
+> E
+> N
+> N
+> HELP ME DON PEDRO
+# wait for the plane ("the roar of the airplane engine")
+> WAIT
+> WAIT
+> WAIT
+> WAIT
+> WAIT
+> WAIT
+> S
+> JUMP
+> GET ON MOTORCYCLE
+> W
+> GIVE TOTEM TO MARION
+> HIDE IT
+# one move later the Nazi platoon is elsewhere
+> WAIT
+> N
+> VIVA LA REVOLUCION
+> TRADE HAT FOR KNIFE
+> GIVE ME BULLETS
+> W
+> GET OFF MOTORCYCLE
+> DROP KNIFE
+> DROP BULLETS
+> TAKE WHIP
+> DROP WHIP
+> GET ON MOTORCYCLE
+> E
+> N
+> JUMP ON BRANCH
+> N
+> WAIT
+> WAIT
+> D
+> E
+> E
+> S
+> MARION, GIVE ME TOTEM
+> PUT TOTEM IN POCKET
+> U
+> OPEN DOOR
+> WAIT
+> WAIT
+> WAIT
+> E
+> TAKE EYE
+> PUT EYE IN POCKET
+> WAIT
+> WAIT
+# The snake squeezes the lock when it is on the cage (the third wait).
+> WAIT
+> WAIT
+> WAIT
+> HISS
+> E
+> E
+> TAKE BULLETS
+> PUT BULLETS IN POCKET
+> TAKE KNIFE
+> WEAR KNIFE
+> TAKE WHIP
+> WEAR WHIP
+> W
+> N
+> N
+> SWIM N
+> N
+> TAKE UNIFORM
+> S
+> WEAR UNIFORM
+> W
+> W
+> D
+> D
+> W
+> TAKE EYE
+> PUT EYE IN SOCKET
+> TAKE TOTEM
+> REMOVE GOGGLES
+> D
+> TAKE BULLETS
+> FEEL WALL
+> HISS
+> FEEL WALL
+> TAKE KNIFE
+> PUT TOTEM IN NICHE
+> WEAR GOGGLES
+> W
+> S
+> THROW BULLETS IN FIRE
+> W
+> W
+> N
+> THROW KNIFE AT PLEBINHEIM
+> TAKE WHIP
+> SNAP WHIP AT VINES
+> TAKE KEY
+> SWING ON VINES
+> TAKE KNIFE
+> CUT MARION DOWN WITH KNIFE
+> SWING ON VINES

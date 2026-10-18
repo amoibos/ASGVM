@@ -1,0 +1,215 @@
+# Dick Francis' High Stakes -- commands for the shipped release, from
+# the solution file Hstakes-sol.txt (not redistributed here). One command per
+# "> " line; a "> Yes."/"> No." line answers a yes/no question. Where the
+# original's run differs, the commands follow the original.
+# Racing Road
+> W
+> CLOSE GATE
+> WAIT
+> LOOK
+> ENTER TRAILER
+# Inside Trailer
+> CALM ENERGISE
+> CALM ENERGISE
+> PET ENERGISE
+> GET TIRE IRON
+> LOOK AT ENERGISE CAREFULLY
+# Pasture With Bull
+# The bull backs away on the sixth wait (the original, 2026-10-18).
+> WAIT
+> WAIT
+> WAIT
+> WAIT
+> WAIT
+> WAIT
+> S
+> E
+> S
+> E
+# Viewing Stand
+> BERT, GIVE ME THE SANDWICH
+> BERT, GIVE ME THE RACING CALENDAR
+> READ RACING CALENDAR CAREFULLY
+> GIVE RACING CALENDAR BACK TO BERT
+> PUT SANDWICH IN POCKET
+> ALEX, COME WITH ME
+> ALEX, TELL ME ABOUT BLACK FIRE
+> W
+# Car Park
+> TAKE KEY
+> OPEN DOOR
+> GET IN
+> CLOSE DOOR
+> PUT KEY IN IGNITION
+> N
+> W
+> W
+> S
+> S
+> E
+# Park Court
+> OPEN DOOR
+> GET OUT
+> TAKE PAPER
+> READ PAPER CAREFULLY
+> DROP PAPER
+> OPEN DOOR
+> E
+> U
+> N
+# WC
+> TAKE TOWEL
+> S
+> S
+# Bedroom
+> LOOK AT PAINTING CAREFULLY
+> N
+> D
+> E
+# Office
+> TAKE LETTER
+> READ LETTER CAREFULLY
+> PUT LETTER IN POCKET
+> GET CARROUSEL
+> W
+> W
+> GET IN
+> CLOSE DOOR
+> W
+> N
+> E
+# Gravel Drive, Barn
+> OPEN DOOR
+> GET OUT
+> E
+> N
+> OPEN BOX DOOR
+> N
+# Energise's Box
+> LAD, WHAT IS WRONG WITH HORSE
+> LOOK AT BLACK HORSE CAREFULLY
+> UNTIE BLACK HORSE
+> S
+> S
+> W
+> GET IN
+> CLOSE DOOR
+> W
+> N
+> E
+# Park Entrance
+> OPEN DOOR
+> GET OUT
+> E
+# Racing Road, Pasture and Tire Iron
+> TIE TOWEL TO FENCE
+> W
+> N
+> TAKE TIRE IRON
+> S
+> GET IN
+> CLOSE DOOR
+> W
+> W
+> W
+# Quadrangle and the Chain
+> OPEN DOOR
+> GET OUT
+> BREAK CHAIN WITH TIRE IRON
+> DROP TIRE IRON
+> S
+# Faber's Stable
+> GIVE CARROUSEL TO ALEX
+> ALEX, COME WITH ME
+> LOOK AT BLACK FIRE CAREFULLY
+> BERT, I WANT TO BUY BLACK FIRE
+> UNTIE BLACK FIRE
+> BERT, GIVE ME THE VAN KEYS
+> N
+# Quadrangle and the Gate
+> ALEX, HELP ME OPEN GATE
+> N
+# Byway
+> OPEN DOOR
+> GET IN
+> CLOSE DOOR
+> PUT VAN KEYS IN IGNITION
+> TIE BLACK FIRE
+> S
+> E
+> E
+> S
+> E
+> OPEN DOOR
+> UNTIE BLACK FIRE
+> GET OUT
+> E
+> N
+> N
+# Energise's Box
+> TAKE SUGAR
+> GIVE SUGAR TO PADELLIC
+> UNTIE PADELLIC
+> S
+> S
+> W
+> GET IN
+> CLOSE DOOR
+> TIE PADELLIC
+> W
+> N
+> N
+> W
+# Side Road
+> UNTIE PADELLIC
+> OPEN DOOR
+> GET OUT
+> N
+> N
+> OPEN DOOR
+> W
+# Stable
+> OPEN STALL DOOR
+> TIE PADELLIC
+> N
+> CALM ENERGISE
+> PET ENERGISE
+> TAKE SANDWICH
+> GIVE SANDWICH TO ENERGISE
+> UNTIE ENERGISE
+> S
+> UNTIE PADELLIC
+> N
+> TIE PADELLIC
+> S
+> CLOSE STALL DOOR
+> UNTIE ENERGISE
+> E
+> CLOSE DOOR
+> S
+> S
+> GET IN VAN
+> CLOSE DOOR
+> TIE ENERGISE
+> S
+> S
+> OPEN DOOR
+> UNTIE ENERGISE
+> GET OUT
+> S
+> TIE ENERGISE
+> N
+> GET IN VAN
+> CLOSE DOOR
+> E
+> S
+> E
+> E
+> OPEN DOOR
+> GET OUT
+> E
+> N
+> TRIP JODY
+> TACKLE JODY
+> DUCK
+> SIT ON JODY

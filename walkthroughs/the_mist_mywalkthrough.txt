@@ -1,0 +1,163 @@
+# Stephen King's The Mist -- commands for the shipped release, from
+# the solution file Mist.sol (not redistributed here). One command per "> " line;
+# a "> Yes."/"> No." line answers a yes/no question. People and monsters
+# move at random (TP3 Random, seed 0): where the original's run differs,
+# the commands follow the original.
+# Supermarket Checkout (Ollie is at the checkout, not in the office)
+> OPEN OFFICE DOOR
+> E
+> TAKE BOX
+> W
+> OLLIE, RELAX
+> OLLIE, DO YOU HAVE A GUN?
+> OLLIE, GIVE ME THE GUN
+> N
+# Parking Lot, the Bug: throw the salt the turn it appears
+> OPEN BOX
+> WAIT
+> THROW SALT AT BUG
+> DROP BOX
+> E
+> E
+# North Main Street: the Bird is not here yet -- Mrs. Reppler first
+> W
+> W
+> S
+> S
+> MRS. REPPLER, WHERE IS THE KEY?
+> N
+> N
+> E
+> E
+# the Bird comes; the pistol has three bullets, so wait for a hit
+> LOOK
+> LOOK
+> SHOOT BIRD
+# Traffic circle, the Dragonfly
+> S
+> SHOOT DRAGONFLY
+> SHOOT DRAGONFLY
+> N
+> TAKE KEY
+> UNLOCK DOOR
+> OPEN DOOR
+> E
+# Hardware Store: the empty clip out of the pistol, the old one in
+> DROP KEY
+> TAKE OLD CLIP
+> TAKE POLISHED CLIP
+> DROP POLISHED CLIP
+> PUT OLD CLIP IN GUN
+> TAKE SHOVEL
+> W
+> W
+> W
+> W
+# Bugblaster's Store, Spider
+> TAKE RAID
+> SPRAY SPIDER WITH RAID
+> DROP RAID
+> TAKE SPRAYER
+> E
+> E
+> E
+> S
+> W
+> N
+> W
+> S
+# Garbage Dump
+> OPEN DUMPSTER
+> EXAMINE DUMPSTER CAREFULLY
+> TAKE NOTEBOOK
+> OPEN NOTEBOOK
+> READ NOTEBOOK
+> READ NOTEBOOK
+> READ NOTEBOOK
+> DROP NOTEBOOK
+> N
+> W
+> N
+> E
+> N
+> W
+# Truck Key
+> OLLIE, DO YOU HAVE THE TRUCK KEY?
+> OLLIE, GIVE ME THE TRUCK KEY
+> E
+> S
+> W
+> S
+> E
+> E
+# Driveway
+> OPEN DOOR
+> GET IN
+> CLOSE DOOR
+> S
+> W
+> N
+> E
+> E
+> N
+> E
+> S
+> S
+> E
+> S
+# Dirt Road
+> OPEN DOOR
+> GET OUT
+> DIG HOLE WITH SHOVEL
+> DROP SHOVEL
+> S
+> E
+# Carport, the Centipede
+> SHOOT CENTIPEDE
+> SHOOT CENTIPEDE
+> SHOOT CENTIPEDE
+> OPEN DOOR
+> E
+> E
+> E
+# Office
+> OPEN CLOSET
+> TAKE SUIT
+> WEAR SUIT
+> W
+> W
+> N
+> OPEN DOOR
+# the air lock walks through to the spotless room
+> E
+# Spotless Room
+> POUR INSECTICIDE FROM SPRAYER
+> POUR PESTICIDE INTO SPRAYER
+> OPEN DOOR
+> W
+> W
+> S
+> W
+> W
+> N
+# Dirt Road
+> GET IN
+> CLOSE DOOR
+> N
+> W
+> N
+> N
+> W
+> S
+> E
+> N
+> E
+# Lake Drive
+> OPEN DOOR
+> GET OUT
+> SPRAY GIANT THING
+> SPRAY GIANT THING
+> SPRAY GIANT THING
+> OPEN DOOR
+> S
+> D

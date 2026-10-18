@@ -1,0 +1,107 @@
+# Rambo: First Blood Part II -- commands for the shipped release, from the
+# solution file Rambo.txt (not redistributed here). One command
+# per "> " line; a "> Yes."/"> No." line answers a yes/no question.
+# Drop Site
+> REMOVE PARACHUTE
+> PUT PARACHUTE IN LOG
+> GET GUN
+> WAIT
+> HIDE
+> W
+# Palm Tree
+> FIRE GUN AT BUSHES
+> N
+# Orchid Bushes
+> SURVEY
+> FIRE GUN AT MINE
+> N
+> N
+# Temple
+> SAY LONE WOLF
+> W
+# Pirate Camp and Boar Trail
+> LOOK AT KINH CAREFULLY
+> GET CAMERA
+> KINH, TRADE CAMERA FOR CANTEEN
+> WEAR CANTEEN
+> WAIT
+# Kinh goes to his junk; board it and hide from the gunship
+> W
+> HIDE
+# eat on the junk: on land the next gunship leaves one turn after its
+# whomp-whomp, and there is no cover in the mud field
+> CO, GIVE ME FOOD
+> EAT RICE
+> WAIT
+# the sandbar
+> W
+> GET BRANCH
+> E
+> N
+# Boulders
+> SURVEY
+> PUT BRANCH ACROSS PIT
+> N
+# Mud Fields: Co must stay behind or Tay shoots her at the capture
+> CO, STAY HERE
+> GET KNIFE
+> CUT WIRE WITH KNIFE
+# through the fence: captured
+> W
+# Podovsk's Quarters
+> MY NAME IS LONE WOLF
+> MY NAME IS LONE WOLF
+> MY NAME IS LONE WOLF
+> MY NAME IS LONE WOLF
+> GET GUN
+> GET BOW
+> WEAR BOW
+> N
+> E
+> FIRE GUN AT GUARD
+> S
+# Tree
+> FIRE GUN AT PODOVSK
+> N
+> FIRE GUN AT GUARD
+> W
+> W
+> FIRE GUN AT GUARD
+> S
+# Torture Area
+> FLIP TAY
+> KICK TAY
+> HIT TAY
+> GET KNIFE
+> KILL TAY WITH KNIFE
+> KILL GUARD WITH KNIFE
+> CUT THONGS WITH KNIFE
+# the machine gun is out of bullets; hands free for the canteen
+> DROP GUN
+> GET CANTEEN
+> GIVE WATER TO BANKS
+# a guard leaps down: keep the knife in hand for him
+> WEAR CANTEEN
+> KILL GUARD WITH KNIFE
+> GET BOW
+> BANKS, WHERE ARE PRISONERS?
+> BANKS, FOLLOW ME
+> N
+> N
+> E
+# Landing Pad and Over Paddies
+> GET IN
+> FLY UP
+> E
+> SHOOT ROCKET AT HEDGEROW
+> FLY DOWN
+# Inside Helicopter
+> CO, STAY HERE
+> BANKS, STAY HERE
+> GET OUT
+# Rice Paddies
+> FOLLOW ME
+> GET IN
+> FLY UP
+> W
+> W

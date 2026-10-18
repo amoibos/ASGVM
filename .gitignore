@@ -1,0 +1,8 @@
+# The original game files are not redistributed (see README.md):
+# only the empty per-title folders are kept.
+/data/*/*
+!/data/*/.gitkeep
+
+__pycache__/
+*.pyc
+.venv/
