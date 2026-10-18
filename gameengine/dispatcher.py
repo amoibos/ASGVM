@@ -1,8 +1,7 @@
 """Shared ASG per-turn dispatcher primitives.
 
-This module ports only the structurally confirmed part of GAME.000's
-``sub_1DEB`` record loop.  It deliberately stops before the still-unidentified
-Turbo Pascal set operation that applies a rule's effects.
+This module ports GAME.000's ``sub_1DEB`` record loop: the rule frames, the
+per-turn set transfers (``1F62..2019``) and the six-direction room pass.
 """
 
 from __future__ import annotations

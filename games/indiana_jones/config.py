@@ -6,7 +6,7 @@ only, running on the shared VM (``gameengine.AsgVm`` via
 
 ``GAME.COM``/``GAME.000`` are byte-identical to Goldfinger's and High
 Stakes's (same 40-byte TABLES-record cluster, confirmed MD5 match,
-`docs/engine-compatibility.md`) -- only ``MESSAGE``/``VOCAB``/``TABLES``
+`docs/architecture.md`) -- only ``MESSAGE``/``VOCAB``/``TABLES``
 differ, so the shared VM runs this title from its own data with no
 title-specific engine code.
 """

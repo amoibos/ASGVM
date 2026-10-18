@@ -85,7 +85,7 @@ LITERAL_SYMBOLS = frozenset((*range(0x00, 0x1B), 0x23, 0x24, 0x25, 0x26, 0x27))
 # divides a record index by 0x55=85 and strides by 0x202=514 over a RAM block
 # cache; the on-disk pages are 512 bytes). The record reader walks the depaged
 # stream, so a logical record index N lives at depaged offset N*6. See
-# docs/data-format.md "MESSAGE paging and the backslash dictionary".
+# docs/file-formats.md (MESSAGE, Pages).
 MESSAGE_PAGE_SIZE = 512
 MESSAGE_PAGE_HEADER = 2
 MESSAGE_GROUPS_PER_PAGE = 85
@@ -154,12 +154,10 @@ def render_template(text: str) -> str:
 
 
 class MessageDecoder:
-    """Partial MESSAGE decoder.
+    """MESSAGE file reader: depaged symbol streams and length-prefixed records.
 
-    The 6-bit packing is known. The remaining unknown is the runtime
-    translation table at DS:1DF8 used by GAME.COM:4D64-4D70. Until that table is
-    reconstructed, this class exposes symbol streams for analysis rather than
-    claiming to decode final prose.
+    Text rendering (the DS:1DF8 symbol table and the controls) is in
+    ``gameengine.gamecom``.
     """
 
     def __init__(self, data: bytes) -> None:

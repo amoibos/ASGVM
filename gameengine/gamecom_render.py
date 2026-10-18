@@ -1079,7 +1079,7 @@ class SymbolRenderMixin:
         """Render the room-description segment at depaged ``msg_off`` position.
 
         This is a partial port of the move/look text-emit pipeline
-        (``turn_resolve_text`` -> ``msg_emit_response``, see data-format.md).
+        (``turn_resolve_text`` -> ``msg_emit_response``).
         The dispatcher's per-room section selection rule is not yet traced --
         this implements the simplest data-driven structural rule that matches
         the segment framing observed in the message stream:

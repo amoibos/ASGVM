@@ -70,7 +70,7 @@ class GameComMessageEngine(ConditionalMixin, SymbolRenderMixin):
         # Optional: read the native byte_4B7B render/skip flag left behind by
         # the action block ``action_executor`` just ran (confirmed native
         # opcodes 0x32-0x35/0x46/etc. write it; the ``|`` control consumes it --
-        # see docs/data-format.md "NPC records"). ``None`` means "unknown", so the caller leaves any following ``|``
+        # see docs/memory-layout.md). ``None`` means "unknown", so the caller leaves any following ``|``
         # gate untouched rather than guessing a render/skip decision.
         self.action_gate_reader: Callable[[], bool | None] | None = None
         self.record_open_callback: Callable[[], None] | None = None

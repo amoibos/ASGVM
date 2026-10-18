@@ -117,7 +117,7 @@ The leading `n` answers the question whether to resume a saved game.
 | `gameengine/savegames.py`, `paging.py` | `SAVE<n>` files and the `(MORE)` pager. |
 | `games/<title>/` | Per-title bindings: `config.py`, sometimes `records.py` (data captured from the original), and `play.py`. |
 | `walkthroughs/` | A winning command list per title. |
-| `docs/` | Reverse-engineering notes on the original engine and its files ([overview](docs/README.md)). |
+| `docs/` | How the engine is built: architecture, file formats, memory layout and the VM ([overview](docs/README.md)). |
 | `run.py`, `run.bat` | The menu. |
 
 ## License

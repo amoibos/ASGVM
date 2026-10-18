@@ -20,8 +20,8 @@ from __future__ import annotations
 
 # Native verb-to-MESSAGE-record table at DS:0x5F0, captured via DOSBox-X
 # MEMDUMPBIN after a new-game starts (2026-07-03), same method as
-# `games/goldfinger/records.py`'s table (`docs/data-format.md`, "Verb-to-
-# MESSAGE-record lookup table"). Each value is the BASE template; the
+# `games/goldfinger/records.py`'s table (`docs/vm.md`,
+# Activation). Each value is the BASE template; the
 # response actually rendered is typically a `(`-section-selected
 # sub-fragment of the base record, same as Goldfinger.
 VERB_RESPONSE_RECORDS: dict[int, int] = {

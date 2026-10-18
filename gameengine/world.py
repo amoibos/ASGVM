@@ -1,8 +1,7 @@
 """Engine-base world dataclasses (Room, GameObject, base GameState).
 
-Engine-generic structural types. Per-game extensions live in the
-respective ``games/<title>/`` binding (e.g. Goldfinger's
-``SceneGlobals`` lives in ``games.goldfinger.interpreter``).
+Engine-generic structural types; what differs per title is in its
+``AsgConfig`` (``games/<title>/config.py``).
 
 These types are *structurally* invariant across the sibling
 Mindscape titles -- every title has rooms with 6 direction slots,

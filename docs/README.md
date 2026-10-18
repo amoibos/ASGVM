@@ -1,21 +1,15 @@
 # Docs
 
-Reverse-engineering notes from the development of the port. Some are in
-English, some in German.
+How the engine is built: the original program, its data files, its memory
+and the virtual machine that runs the games, as the port implements them.
 
 | File | Contents |
 |---|---|
-| [data-format.md](data-format.md) | The original files byte by byte: MESSAGE packing and controls, VOCAB, TABLES, the dispatcher, the activation chain. |
-| [asg-vm.md](asg-vm.md) | How the original engine works as a VM that executes data, and how the port mirrors it. |
-| [engine-compatibility.md](engine-compatibility.md) | The eight titles, the two engine variants (40/47-byte TABLES records). |
-| [reverse-engineering.md](reverse-engineering.md) | Disassembly notes on GAME.COM and GAME.000 (Turbo Pascal 3). |
-| [runtime-layout.md](runtime-layout.md) | Memory layout of the running game. |
-| [runtime-trace-targets.md](runtime-trace-targets.md) | Addresses for live tracing in DOSBox-X. |
-| [savegame-format.md](savegame-format.md), [speicher-und-lademechanismus.md](speicher-und-lademechanismus.md) | Save and restore. |
-| [vm-migration-audit.md](vm-migration-audit.md) | Dated log of porting the engine into the shared VM. |
+| [architecture.md](architecture.md) | The original engine (`GAME.COM` + `GAME.000`), the two variants, the eight titles, and how the port's modules map onto it. |
+| [file-formats.md](file-formats.md) | `MESSAGE`, `VOCAB`, `TABLES` and the `SAVE<n>` files, byte by byte. |
+| [memory-layout.md](memory-layout.md) | The original's memory: the tables the activation builds (people, objects, rooms, routes), the sets, cursors, flags and timers. |
+| [vm.md](vm.md) | Activation, a turn from parsing to the end-of-turn pass, the MESSAGE control language, the actions, Random, save and restore. |
 
-The notes refer to files of the development workspace that are not part of
-this repository: the disassembly (`docs/disassembly/`), tests (`tests/`),
-trace logs (`traces/`) and tools (`tools/`). Older entries also name modules
-that were later removed or renamed (the hand-written Goldfinger interpreter,
-`sibling.py`, now `gameengine/game.py`).
+Addresses are offsets in the original's data segment (`DS:1A4C`) or code
+locations in the disassembly (`sub_9AFF`, `GAME.COM 3DFB`); the port uses the
+same names, so every rule can be traced to the code it ports.

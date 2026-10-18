@@ -184,8 +184,8 @@ class RuntimeRecordArray:
         condenses these into 4 resolved pointers at the runtime record's
         +0x04..+0x0B field (8 bytes = 4 LE words).
 
-        Hypothesis (matches the example bytes ``8a1b 8e1b 781b 221a`` in
-        ``docs/data-format.md``):
+        Hypothesis (matches the example bytes ``8a1b 8e1b 781b 221a`` of a
+        live dump):
           * Store the FIRST FOUR slot resolutions as LE words.
           * Each word = the resolved target's slot index in the
             pointer table (0 if blocked / null room).
@@ -228,8 +228,7 @@ class RuntimeRecordArray:
     ) -> RuntimeRecord:
         """Build a 32-byte runtime record from a 40-byte on-disk TABLES room record.
 
-        This is the STRUCTURAL transform documented in
-        ``docs/data-format.md`` (Disk -> runtime transform). The native
+        This is the structural disk -> runtime transform. The native
         loader builds runtime records FIELD BY FIELD, not memcpy'd, so:
 
           * `+0x00` = on_disk[+0x00]               (type byte preserved)

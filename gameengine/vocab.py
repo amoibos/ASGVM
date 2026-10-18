@@ -19,7 +19,7 @@ VOCAB_TEXT_SIZE = 22
 # The value_a byte (record +0x18) acts as a part-of-speech discriminator.
 # Confirmed by full coverage in the shipped VOCAB: every value_a == 5 entry is
 # a direction word and its value_b is the direction id 0..5 (12/12 entries,
-# matching the direction table in docs/data-format.md). The verb (0x06) and
+# matching the direction table in docs/file-formats.md). The verb (0x06) and
 # noun (0x00) groupings are strongly indicated by the same data but their
 # native use still needs the parse-token trace at GAME.000:1368/0x4b4.
 VOCAB_VALUE_A_DIRECTION = 0x05
@@ -72,7 +72,7 @@ def decode_vocab_chars(values: bytes) -> str:
 
 
 class VocabDecoder:
-    """Partial VOCAB decoder.
+    """VOCAB decoder.
 
     GAME.000:068B opens VOCAB as a fixed-record file. Each entry is 26 bytes:
     a Pascal-style string field (1 byte length + 21 bytes of symbol text) and

@@ -6,6 +6,6 @@ Indiana Jones, Dick Francis, Forbidden Castle, A View to a Kill,
 Rambo, The Mist, Voodoo Island). Per-game bindings live under
 ``games/<title>/``.
 
-See ``docs/engine-compatibility.md`` for the engine-variant matrix
-(40-byte vs 47-byte TABLES records being the main split).
+See ``docs/architecture.md`` for the engine variants (40-byte vs 47-byte
+TABLES records being the main split).
 """

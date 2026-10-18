@@ -13,7 +13,7 @@ from dataclasses import dataclass
 
 
 # Default TABLES record size for the Goldfinger engine variant.
-# Other engine titles use 47-byte records (see docs/engine-compatibility.md);
+# Other engine titles use 47-byte records (see docs/architecture.md);
 # `TableDecoder` auto-detects from file size, falling back to this default.
 TABLE_RECORD_SIZE = 40
 # Sibling games use 47B records. Both layouts share the type-byte-at-+0
